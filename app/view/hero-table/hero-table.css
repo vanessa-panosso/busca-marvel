@@ -1,0 +1,135 @@
+.content {
+    margin: 20px 42px 16px 42px;
+}
+.row {
+    display: flex;
+}
+thead tr th {
+    color: white;
+    fill: #D42026;
+    opacity: 100%;
+    radius: 0px;
+    color: #FFFFFF 100%;
+    font-size: 16px;
+    font-family: 'Roboto-Regular', serif;
+    character: 0px;
+    line: 19px (1.2);
+    background: #D42026;
+}
+.title-black {
+    color: #D42026;
+    opacity: 100%;
+    font-size: 27px;
+    font-family: 'Roboto-Black', serif;
+}
+.line {
+    height: 4px;
+    color: #D42026;
+    width: 54px;
+    display: block;
+    background: #D42026;
+    margin-bottom: 34px;
+}
+.title-light {
+    color: #D42026;
+    opacity: 100%;
+    font-size: 27px;
+    font-family: 'Roboto-Light', serif;
+}
+
+.candidate-name {
+    color: #D42026;
+    opacity: 100%;
+    font-size: 27px;
+    font-family: 'Roboto-Light', serif;
+    margin-left: auto;
+}
+.label-search {
+    color: #D42026;
+    opacity: 100%;
+    font-size: 16px;
+    font-family: 'Roboto-Regular', serif;
+    character: 0px;
+    line: 19px (1.2);
+    margin-top: 34px;
+}
+.input-search {
+    border: 1px center;
+    margin-bottom: 34px;
+    border: 1px center 
+    * #A5A5A5 100%;
+    opacity: 100%;
+    width: 400px;
+    height: 31px;
+}
+.table-img {
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    margin-right: 25px;
+}
+
+table {
+    width: 100%;
+}
+.first-column {
+    width: 25%;
+}
+/**tbody tr:hover td {
+    background-color: #D42026;
+    opacity: 10%;
+    radius: 0px;
+
+}**/
+
+tbody tr td {
+    color: #4E4E4E;
+    opacity: 100%;
+    font-size: 21px;
+    font-family: 'Roboto-Regular' serif;
+    character: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+tr.tr-line td {
+    border-bottom: 1px solid #D42026;
+}
+
+#pagination {
+    align-content: center;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    background-image:    -moz-linear-gradient(top, #DBDBDB, #E2E2E2);
+    background-image:     -ms-linear-gradient(top, #DBDBDB, #E2E2E2);
+    background-image:      -o-linear-gradient(top, #DBDBDB, #E2E2E2);
+    background-image:         linear-gradient(top, #DBDBDB, #E2E2E2);
+}
+#pagination a, #pagination i {
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 21px;
+}
+
+#pagination a {
+    color: #D42026 100%;
+    opacity: 100%;
+    font-size: 21px;
+    font-family: 'Roboto-Regular' serif;
+    character: 0px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid  #D42026;
+}
+
+#pagination a.current {
+    color: #FFFFFF;
+    opacity: 100%;
+    font-size: 21px;
+    font-family: 'Roboto-Regular', serif;
+    width: 32px;
+    height: 32px;
+    background: #D42026;
+}

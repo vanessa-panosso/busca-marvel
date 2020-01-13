@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hero-table.css" />
+    <script>
+        function openDetail(id) {
+            window.location="../hero-detail/hero-detail.html?" + id;
+        }
+    </script>
+</head>
+
+<body class="content">
+
+    <div class="row">
+        <div class="title-black">BUSCA KITSU</div>
+        <div class="title-light">TESTE FRONT-END</div>
+        <div class="candidate-name">VANESSA PANOSSO</div>
+    </div>
+    <div class="line"></div>
+
+    <form class="form" name="form" onsubmit="heroTable.findCharacters(event)">
+        <div class="input-search">
+            <label for="search" class="label-search">Nome do Personagem</label>
+            <input type="text" id="search" class="input-search" autofocus />
+        </div>
+    </form>
+
+    <div id="heroView"></div>
+    <div id="pagination" class="row"></div>
+    <script src="list-hero.js"></script>
+    <script src="hero-table.js"></script>
+    <script src="hero-table-view.js"></script>
+    <script src="pagination.js"></script>
+    <script>
+        let heroTable = new HerosTable();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    
+  }
+  
+  .card {
+    width: 100%;
+    border-radius: 10px;
+    left: 0px;
+    border: 1px solid #D42026;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .title {
+    color: #D42026;
+    font-weight: 300;
+    left: 20px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .title-black {
+    color: #D42026;
+    opacity: 100%;
+    font-size: 27px;
+    font-family: 'Roboto-Black', serif;
+}
+.line {
+    height: 4px;
+    color: #D42026;
+    width: 54px;
+    display: block;
+    background: #D42026;
+    margin-bottom: 34px;
+}
+.title-light {
+    color: #D42026;
+    opacity: 100%;
+    font-size: 27px;
+    font-family: 'Roboto-Light', serif;
+}
+
+.candidate-name {
+    color: #D42026;
+    opacity: 100%;
+    font-size: 27px;
+    font-family: 'Roboto-Light', serif;
+    margin-left: auto;
+}
+
+.content {
+  margin: 20px 42px 16px 42px;
+}
+.row {
+  display: flex;
+}
+
+.image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    
+}
+.atribute {
+  padding: 20px;
+  color: #4E4E4E;
+  padding-bottom: 5px;
+}
+.atribute span {
+  padding-bottom: 5px;
+}
+.aligh-center {
+  display: flex;
+  justify-content: center;
+}
